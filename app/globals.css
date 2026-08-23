@@ -35,6 +35,7 @@ body {
   font-family: 'Franklin Gothic Medium';
   box-shadow: 1px 1px var(--bru5);
   background-color: var(--bru3);
+  width: 10vw;
 }
 
 .homeButton:hover {
@@ -49,6 +50,13 @@ body {
   box-shadow: none; /* Mimicking focus:ring-purple-300 */
   border: 2px solid var(--bru5); /* focus:border-purple-300 */
   transform: translateY(0);
+}
+
+.testOutput {
+  border: 3px solid var(--bru5);
+  border-radius: 20px;
+  padding: 1rem 2.5rem;
+  box-shadow: 3px 3px var(--bru3);
 }
 
 @keyframes fadeIn {
